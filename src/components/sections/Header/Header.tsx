@@ -4,13 +4,13 @@
  *  Copyright: (C) 2023 Manolo Ramos - All Rights Reserved
  * 
  *  File created on: 06-11-2023 12:49:52
- *  Last modified on: 31-12-2024 16:45:23
+ *  Last modified on: 25-12-2025 23:03:01 
  * 
  *  Description: Header component. Contains the main navigation elements and the light/dark toggle.
  */
 
+import { HeaderProps } from '@/ts/interfaces/props';
 import { NavPaths } from '@/ts/enums/navigation';
-import React from 'react';
 import { ThemeProperties } from '@/ts/interfaces/theming';
 import _ from 'lodash';
 import logoDark from '@assets/images/logo/logo_sm_dark.png';
@@ -20,13 +20,7 @@ import useMixTheme from '@utils/hooks/useMixTheme';
 import { useTheme } from '@emotion/react';
 import { externalNavItems, mainNavItems } from '@data';
 
-interface HeaderProps {
-	themeSwitch: () => void;
-}
-
-const Header: React.FC<HeaderProps> = ({
-	themeSwitch
-}) => {
+const Header = ({ themeSwitch }: HeaderProps) => {
 	const {
 		colorScheme,
 		baseStyles

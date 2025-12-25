@@ -4,17 +4,16 @@
  *  Copyright: (C) 2023 Manolo Ramos - All Rights Reserved
  * 
  *  File created on: 25-10-2023 20:04:05
- *  Last modified on: 5-9-2024 22:07:32 
+ *  Last modified on: 25-12-2025 23:05:45 
  * 
  *  Description: Home page
  */
 
 import Layout from "@/components/layout";
-import React from "react";
 import reactLogo from '@assets/icons/react.svg';
 import viteLogo from '@assets/icons/vite.svg';
 
-const Home: React.FC = () => {
+const Home = () => {
 	return (
 		<Layout>
 			<div>
