@@ -4,15 +4,13 @@
  *  Copyright: (C) 2023 Manolo Ramos - All Rights Reserved
  * 
  *  File created on: 11-11-2023 12:46:53
- * @ Last modified on: 15-1-2024 19:34:59 
+ * @ Last modified on: 25-12-2025 23:10:47 
  * 
  *  Description: Structure used to define common navigation items.
  */
 
-interface navigationItems {
+export interface NavigationItem {
 	url: string,
 	label: string,
 	icon?: string
 }
-
-export type { navigationItems };

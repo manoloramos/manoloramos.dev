@@ -4,11 +4,12 @@
  *  Copyright: (C) 2023 Manolo Ramos - All Rights Reserved
  * 
  *  File created on: 13-11-2023 23:02:38
- *  Last modified on: 13-11-2023 23:34:39
+ *  Last modified on: 25-12-2025 23:22:58 
  * 
  *  Description: Enums used in navigation related components.
  */
 
+// TODO: remove once the router is implemented
 enum NavPaths {
 	Home = '/',
 	About = '/about',
